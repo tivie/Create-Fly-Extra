@@ -1,1 +1,1 @@
-﻿{ "type":"crafting_shaped", "category": "pilots", "group": "pilots", "pattern": [ " I ", "# #", "III" ], "key":{ "#":{ "item":"create:andesite_alloy" }, "I":{ "item":"minecraft:andesite" } }, "result":{"item":"create_fly_extra:andesite_pilot"} }
+{ "type":"crafting_shaped", "category": "pilots", "group": "pilots", "pattern": [ " I ", "# #", "III" ], "key":{ "#":{ "item":"create:andesite_alloy" }, "I":{ "item":"minecraft:andesite" } }, "result":{"item":"create_fly_extra:andesite_pilot"} }

@@ -1,4 +1,4 @@
-﻿{
+{
   "variants": {
     "facing=east": {
       "model": "create_fly_extra:block/iron_pilot",

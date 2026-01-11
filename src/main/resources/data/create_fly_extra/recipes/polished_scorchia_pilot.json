@@ -1,1 +1,1 @@
-﻿{ "type":"crafting_shaped", "category": "pilots", "group": "pilots", "pattern": [ " I ", "# #", "III" ], "key":{ "#":{ "item":"create:andesite_alloy" }, "I":{ "item":"create:polished_scorchia" } }, "result":{"item":"create_fly_extra:polished_scorchia_pilot"} }
+{ "type":"crafting_shaped", "category": "pilots", "group": "pilots", "pattern": [ " I ", "# #", "III" ], "key":{ "#":{ "item":"create:andesite_alloy" }, "I":{ "item":"create:polished_scorchia" } }, "result":{"item":"create_fly_extra:polished_scorchia_pilot"} }

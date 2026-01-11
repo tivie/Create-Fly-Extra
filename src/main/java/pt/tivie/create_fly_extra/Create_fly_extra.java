@@ -1,4 +1,4 @@
-﻿package pt.tivie.create_fly_extra;
+package pt.tivie.create_fly_extra;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;

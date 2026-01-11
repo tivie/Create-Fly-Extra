@@ -1,12 +1,20 @@
-﻿{
+{
   "schemaVersion": 1,
   "id": "create_fly_extra",
   "version": "${version}",
   "name": "Create Fly Extra",
   "description": "",
-  "authors": [],
-  "contact": {},
-  "license": "BSD-3-Clause",
+  "authors": [
+    "sudolev",
+    "tivie"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/createflyextra",
+    "issues": "https://github.com/tivie/Create-Fly-Extra/issues",
+    "email": "",
+    "sources": "https://github.com/tivie/Create-Fly-Extra"
+  },
+  "license": "GPL-3.0",
   "icon": "assets/create_fly_extra/icon.png",
   "environment": "*",
   "entrypoints": {

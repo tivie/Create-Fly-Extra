@@ -1,4 +1,4 @@
-﻿package pt.tivie.create_fly_extra.init;
+package pt.tivie.create_fly_extra.init;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;

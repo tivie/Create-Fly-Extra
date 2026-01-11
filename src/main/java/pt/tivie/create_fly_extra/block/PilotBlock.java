@@ -1,4 +1,4 @@
-﻿package pt.tivie.create_fly_extra.block;
+package pt.tivie.create_fly_extra.block;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.Block;

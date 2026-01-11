@@ -1,4 +1,4 @@
-﻿package pt.tivie.create_fly_extra.init;
+package pt.tivie.create_fly_extra.init;
 
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;

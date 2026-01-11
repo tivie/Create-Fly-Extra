@@ -1,4 +1,4 @@
-﻿package pt.tivie.create_fly_extra.init;
+package pt.tivie.create_fly_extra.init;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
