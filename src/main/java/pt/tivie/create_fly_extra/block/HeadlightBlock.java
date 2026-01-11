@@ -49,10 +49,6 @@ public class HeadlightBlock extends WallMountedBlock {
         return 1.0F;
     }
 
-    public boolean propagatesSkylightDown(BlockState state, BlockView world, BlockPos pos) {
-        return true;
-    }
-
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         BlockFace face = state.get(FACE);

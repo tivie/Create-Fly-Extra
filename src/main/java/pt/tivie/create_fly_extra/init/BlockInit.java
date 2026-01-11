@@ -183,5 +183,5 @@ public class BlockInit {
         return registeredBlock;
     }
 
-    public static void load() {};
+    public static void load() {}
 }
