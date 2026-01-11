@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "create_fly_extra:block/hull/industrial_iron_train_hull" },
+    "facing=east": { "model": "create_fly_extra:block/hull/industrial_iron_train_hull", "y": 90 },
+    "facing=south": { "model": "create_fly_extra:block/hull/industrial_iron_train_hull", "y": 180 },
+    "facing=west": { "model": "create_fly_extra:block/hull/industrial_iron_train_hull", "y": 270 }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": { "item": "minecraft:iron_ingot" }
+  },
+  "result": { "item": "create_fly_extra:hull/industrial_iron_train_hull", "count": 2 }
+}

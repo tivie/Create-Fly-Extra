@@ -1,0 +1,7 @@
+{
+	"parent": "create_fly_extra:block/train_hull",
+	"textures": {
+		"front": "create_fly_extra:block/hull/brass_hull_front",
+		"side": "create_fly_extra:block/hull/brass_hull_side"
+	}
+}
