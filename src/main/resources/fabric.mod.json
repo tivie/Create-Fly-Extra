@@ -1,0 +1,36 @@
+﻿{
+  "schemaVersion": 1,
+  "id": "create_fly_extra",
+  "version": "${version}",
+  "name": "Create Fly Extra",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "BSD-3-Clause",
+  "icon": "assets/create_fly_extra/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "pt.tivie.create_fly_extra.client.Create_fly_extraDataGenerator"
+    ],
+    "client": [
+      "pt.tivie.create_fly_extra.client.Create_fly_extraClient"
+    ],
+    "main": [
+      "pt.tivie.create_fly_extra.Create_fly_extra"
+    ]
+  },
+  "mixins": [
+    "create_fly_extra.mixins.json",
+    {
+      "config": "create_fly_extra.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "create": "*"
+  }
+}

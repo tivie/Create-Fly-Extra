@@ -1,0 +1,8 @@
+﻿{
+  "replace": false,
+  "values": [
+    "create_fly_extra:iron_pilot",
+    "create_fly_extra:brass_pilot",
+    "create_fly_extra:copper_pilot"
+  ]
+}

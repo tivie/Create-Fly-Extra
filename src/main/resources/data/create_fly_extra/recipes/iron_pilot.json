@@ -1,0 +1,19 @@
+﻿{
+  "type":"crafting_shaped",
+  "category": "pilots",
+  "group": "pilots",
+  "pattern": [
+    " I ",
+    "# #",
+    "III"
+  ],
+  "key":{
+    "#":{
+      "item":"create:iron_sheet"
+    },
+    "I":{
+      "item":"iron_nugget"
+    }
+  },
+  "result":{"item":"create_fly_extra:iron_pilot"}
+}
