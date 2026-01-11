@@ -1,0 +1,1 @@
+﻿{ "type":"crafting_shaped", "category": "pilots", "group": "pilots", "pattern": [ " I ", "# #", "III" ], "key":{ "#":{ "item":"create:andesite_alloy" }, "I":{ "item":"minecraft:polished_andesite" } }, "result":{"item":"create_fly_extra:polished_andesite_pilot"} }

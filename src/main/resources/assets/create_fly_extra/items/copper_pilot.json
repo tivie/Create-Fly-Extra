@@ -1,0 +1,6 @@
+﻿{
+  "model": {
+    "type": "minecraft:model",
+    "model": "create_fly_extra:block/copper_pilot"
+  }
+}

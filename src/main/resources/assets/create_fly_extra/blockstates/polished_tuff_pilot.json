@@ -1,0 +1,19 @@
+﻿{
+  "variants": {
+    "facing=east": {
+      "model": "create_fly_extra:block/polished_tuff_pilot",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "create_fly_extra:block/polished_tuff_pilot"
+    },
+    "facing=south": {
+      "model": "create_fly_extra:block/polished_tuff_pilot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_fly_extra:block/polished_tuff_pilot",
+      "y": 270
+    }
+  }
+}

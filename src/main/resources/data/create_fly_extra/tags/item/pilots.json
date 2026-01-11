@@ -1,0 +1,23 @@
+﻿{
+  "replace": false,
+  "values": [
+    "create_fly_extra:iron_pilot",
+    "create_fly_extra:andesite_pilot",
+    "create_fly_extra:brass_pilot",
+    "create_fly_extra:copper_pilot",
+    "create_fly_extra:polished_andesite_pilot",
+    "create_fly_extra:polished_asurine_pilot",
+    "create_fly_extra:polished_calcite_pilot",
+    "create_fly_extra:polished_crimsite_pilot",
+    "create_fly_extra:polished_deepslate_pilot",
+    "create_fly_extra:polished_diorite_pilot",
+    "create_fly_extra:polished_dripstone_pilot",
+    "create_fly_extra:polished_granite_pilot",
+    "create_fly_extra:polished_limestone_pilot",
+    "create_fly_extra:polished_ochrum_pilot",
+    "create_fly_extra:polished_scorchia_pilot",
+    "create_fly_extra:polished_scoria_pilot",
+    "create_fly_extra:polished_tuff_pilot",
+    "create_fly_extra:polished_veridium_pilot"
+  ]
+}
