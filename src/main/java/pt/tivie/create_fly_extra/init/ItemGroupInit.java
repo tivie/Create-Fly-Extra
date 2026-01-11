@@ -34,6 +34,13 @@ public class ItemGroupInit {
                 entries.add(BlockInit.POLISHED_SCORIA_PILOT);
                 entries.add(BlockInit.POLISHED_TUFF_PILOT);
                 entries.add(BlockInit.POLISHED_VERIDIUM_PILOT);
+                entries.add(BlockInit.HEADLIGHT);
+                entries.add(BlockInit.ANDESITE_TRAIN_HULL);
+                entries.add(BlockInit.BRASS_TRAIN_HULL);
+                entries.add(BlockInit.COPPER_TRAIN_HULL);
+                entries.add(BlockInit.INDUSTRIAL_IRON_TRAIN_HULL);
+                entries.add(BlockInit.IRON_TRAIN_HULL);
+                entries.add(BlockInit.ZINC_TRAIN_HULL);
             })
             .build();
 

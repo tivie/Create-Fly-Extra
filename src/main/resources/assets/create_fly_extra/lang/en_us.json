@@ -1,4 +1,5 @@
 {
+  "itemGroup.create_fly_extra.group": "Create Fly Extra",
   "block.create_fly_extra.iron_pilot": "Iron Pilot",
   "item.create_fly_extra.iron_pilot": "Iron Pilot",
   "block.create_fly_extra.andesite_pilot": "Andesite Pilot",
@@ -35,5 +36,11 @@
   "item.create_fly_extra.polished_tuff_pilot": "Polished Tuff Pilot",
   "block.create_fly_extra.polished_veridium_pilot": "Polished Veridium Pilot",
   "item.create_fly_extra.polished_veridium_pilot": "Polished Veridium Pilot",
-  "itemGroup.create_fly_extra.group": "Create Fly Extra"
+  "item.create_fly_extra.headlight": "Headlight",
+  "block.create_fly_extra.hull.andesite_train_hull": "Andesite Train Hull",
+  "block.create_fly_extra.hull.brass_train_hull": "Brass Train Hull",
+  "block.create_fly_extra.hull.copper_train_hull": "Copper Train Hull",
+  "block.create_fly_extra.hull.industrial_iron_train_hull": "Industrial Iron Train Hull",
+  "block.create_fly_extra.hull.iron_train_hull": "Iron Train Hull",
+  "block.create_fly_extra.hull.zinc_train_hull": "Zinc Train Hull"
 }

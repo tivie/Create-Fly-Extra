@@ -11,6 +11,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import pt.tivie.create_fly_extra.Create_fly_extra;
 import pt.tivie.create_fly_extra.block.*;
+import pt.tivie.create_fly_extra.block.hull.*;
 
 public class BlockInit {
 
@@ -120,6 +121,49 @@ public class BlockInit {
             new PolishedVeridiumPilotBlock(AbstractBlock.Settings.copy(Blocks.STONE)
                     .nonOpaque()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Create_fly_extra.id("polished_veridium_pilot"))))
+    );
+
+    public static final Block HEADLIGHT = registerBlockWithItem("headlight",
+            new HeadlightBlock(AbstractBlock.Settings.copy(Blocks.LANTERN)
+                    .nonOpaque()
+                    .luminance((state) -> 15)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Create_fly_extra.id("headlight"))))
+    );
+
+    public static final Block ANDESITE_TRAIN_HULL = registerBlockWithItem("hull/andesite_train_hull",
+            new AndesiteTrainHullBlock(AbstractBlock.Settings.copy(Blocks.ANDESITE)
+                    .nonOpaque()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Create_fly_extra.id("hull/andesite_train_hull"))))
+    );
+
+    public static final Block BRASS_TRAIN_HULL = registerBlockWithItem("hull/brass_train_hull",
+            new BrassTrainHullBlock(AbstractBlock.Settings.copy(Blocks.GOLD_BLOCK)
+                    .nonOpaque()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Create_fly_extra.id("hull/brass_train_hull"))))
+    );
+
+    public static final Block COPPER_TRAIN_HULL = registerBlockWithItem("hull/copper_train_hull",
+            new CopperTrainHullBlock(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)
+                    .nonOpaque()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Create_fly_extra.id("hull/copper_train_hull"))))
+    );
+
+    public static final Block INDUSTRIAL_IRON_TRAIN_HULL = registerBlockWithItem("hull/industrial_iron_train_hull",
+            new IndustrialIronTrainHullBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)
+                    .nonOpaque()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Create_fly_extra.id("hull/industrial_iron_train_hull"))))
+    );
+
+    public static final Block IRON_TRAIN_HULL = registerBlockWithItem("hull/iron_train_hull",
+            new IronTrainHullBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)
+                    .nonOpaque()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Create_fly_extra.id("hull/iron_train_hull"))))
+    );
+
+    public static final Block ZINC_TRAIN_HULL = registerBlockWithItem("hull/zinc_train_hull",
+            new ZincTrainHullBlock(AbstractBlock.Settings.copy(Blocks.STONE)
+                    .nonOpaque()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Create_fly_extra.id("hull/zinc_train_hull"))))
     );
 
 

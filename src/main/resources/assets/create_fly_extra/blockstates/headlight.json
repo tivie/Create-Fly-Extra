@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "face=ceiling": {
+      "model": "create_fly_extra:block/headlight_floor",
+      "x": 180
+    },
+    "face=floor": {
+      "model": "create_fly_extra:block/headlight_floor"
+    },
+    "face=wall,facing=east": {
+      "model": "create_fly_extra:block/headlight_wall",
+      "y": 90
+    },
+    "face=wall,facing=north": {
+      "model": "create_fly_extra:block/headlight_wall"
+    },
+    "face=wall,facing=south": {
+      "model": "create_fly_extra:block/headlight_wall",
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "create_fly_extra:block/headlight_wall",
+      "y": 270
+    }
+  }
+}
