@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "category": "pilots",
+  "group": "pilots",
+  "pattern": [
+    " I ",
+    "# #",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "create:copper_sheet"
+    },
+    "I": {
+      "item": "minecraft:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "create_fly_extra:pilot/copper_pilot"
+  }
+}
